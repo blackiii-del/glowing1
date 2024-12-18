@@ -1,0 +1,151 @@
+/* Ensures only the swiper container is swipeable */
+.swiper-wrapper-container {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for the swiper */
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden; /* Prevents anything outside swiper container from being shown */
+  }
+  
+  .swiper-container {
+    /* Restrict swiping to only this container */
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .program {
+    position: relative; /* For the image positioning */
+  }
+  
+  .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* Ensure the image is not squashed */
+  }
+  
+  .swiper-slide p {
+    font-size: 18px;
+    margin: 0 5px;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+
+/* .program{
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.caption{
+    position: absolute;
+    margin: auto;
+    border-radius: 100px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 150px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    opacity: 0;
+    padding-left: 70%;
+    transition: all 0.5s;
+}
+
+.caption .img{
+    width: 100%;
+
+    border-radius: 50%;
+    font-size: xx-large;
+    background: black;
+
+   
+}
+.program:hover .caption{
+    opacity: 1;
+    padding-left: 0;
+}
+
+a{
+    transition: 0.5s ease;
+}
+
+a:hover{
+    color: rgb(59, 88, 5);
+    text-decoration: underline;
+} */
+
+/* Add these styles to your CSS file */
+/*.swiper-container {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    /* margin: 0 auto; */
+  /* } */
+  
+  /* .swiper-slide { */
+    /* position: relative; /* To position the text on top of the image  
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+  /* } */
+  
+ /* .image-container {
+    position: relative; /* For text overlay positioning *
+  }
+  
+  .swiper-image {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensure the image fills the co
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  } */
+  

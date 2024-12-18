@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.Glowing{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+   
+}
+
+
+.btn{
+    background: black;
+    color: white;
+    transition: 0.5s ease;
+    width: 150px;
+    height: 50px;
+}
+
+.btn:hover{
+    background: rgb(5, 102, 5);
+}
+
+ul{
+    background: rgb(238, 239, 255);
+    height: 100px;
+}
+
+
+@media(max-width: 760px){
+    .bag{
+        display: none;
+    }
+    .bagi{
+       width: 100px;
+    }
+    .sach{
+        display: none;
+    }
+    .btn{
+        height: 10px;
+        width: 100px;
+    }
+}
