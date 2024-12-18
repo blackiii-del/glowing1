@@ -1,5 +1,5 @@
 // import dug from '../../assets/Image/Offer-banner-2.jpg'
-import dub from '../../assets/Image/Offer-banner-2.jpg'
+import dub from '../../assets/Image/blog-2.jpg'
 
 export default function Thud() {
   return (
