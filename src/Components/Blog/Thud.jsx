@@ -1,11 +1,11 @@
-import dug from '../../assets/Image/Offer-banner-1.jpg'
+// import dug from '../../assets/Image/Offer-banner-2.jpg'
 import dub from '../../assets/Image/Offer-banner-2.jpg'
 
 export default function Thud() {
   return (
     <div className='flex justify-between h-fit w-[95%] m-auto items-center'>
       <div className='flex justify-between w-{60%} gap-[90px] items-center h-[500px]'>
-        <img src={dug} alt="" className='h-[60%] w-[55%]' />
+        <img src={dub} alt="" className='h-[60%] w-[55%]' />
         <img src={dub} alt=""  className='h-[500px]'/>
       </div>
       <div className='h-[50%] flex flex-col gap-4 w-[35%] justify-center'>
